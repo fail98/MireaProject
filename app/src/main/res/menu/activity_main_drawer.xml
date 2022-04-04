@@ -24,5 +24,9 @@
             android:id="@+id/nav_web"
             android:icon="@android:drawable/ic_menu_search"
             android:title="@string/menu_web" />
+        <item
+            android:id="@+id/nav_music_player"
+            android:icon="@android:drawable/ic_media_play"
+            android:title="@string/menu_music_player" />
     </group>
 </menu>
