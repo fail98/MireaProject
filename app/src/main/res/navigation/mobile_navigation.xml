@@ -37,4 +37,19 @@
         android:name="ru.mirea.abdullin.mireaproject.ui.MusicPlayer"
         android:label="@string/menu_music_player"
         tools:layout="@layout/fragment_music_player" />
+    <fragment
+        android:id="@+id/nav_sensors"
+        android:name="ru.mirea.abdullin.mireaproject.ui.SensorsFragment"
+        android:label="@string/menu_sensors"
+        tools:layout="@layout/fragment_sensors" />
+    <fragment
+        android:id="@+id/nav_photo"
+        android:name="ru.mirea.abdullin.mireaproject.ui.PhotoFragment"
+        android:label="@string/menu_photo"
+        tools:layout="@layout/fragment_photo" />
+    <fragment
+        android:id="@+id/nav_voice"
+        android:name="ru.mirea.abdullin.mireaproject.ui.VoiceRecorderFragment"
+        android:label="@string/menu_voice"
+        tools:layout="@layout/fragment_voice_recorder" />
 </navigation>
